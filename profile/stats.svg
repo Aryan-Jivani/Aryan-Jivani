@@ -4,19 +4,91 @@
   height="230"
   viewBox="0 0 495 230"
   role="img"
-  aria-labelledby="title description"
+  aria-labelledby="stats-title stats-description"
 >
-  <title id="title">GitHub statistics loading</title>
-  <desc id="description">This placeholder will be replaced by GitHub Actions.</desc>
-  <rect x="0.5" y="0.5" width="494" height="229" rx="8" fill="#070b14" stroke="#1e293b" />
-  <text x="28" y="45" fill="#22d3ee" font-family="Segoe UI, Arial" font-size="18" font-weight="700">
-    GitHub Activity
-  </text>
-  <text x="28" y="100" fill="#94a3b8" font-family="Segoe UI, Arial" font-size="14">
-    Live statistics will appear after the first workflow run.
-  </text>
-  <rect x="28" y="135" width="300" height="8" rx="4" fill="#172033" />
-  <rect x="28" y="135" width="90" height="8" rx="4" fill="#22d3ee">
-    <animate attributeName="width" values="60;300;60" dur="2.4s" repeatCount="indefinite" />
-  </rect>
+  <title id="stats-title">Aryan-Jivani's GitHub statistics</title>
+  <desc id="stats-description">
+    Automatically generated public GitHub activity statistics.
+  </desc>
+  
+  <style>
+    .title {
+      fill: #22d3ee;
+      font: 700 18px "Segoe UI", Arial, sans-serif;
+    }
+    .metric-value {
+      fill: #f8fafc;
+      font: 700 23px "Segoe UI", Arial, sans-serif;
+    }
+    .metric-label {
+      fill: #94a3b8;
+      font: 12px "Segoe UI", Arial, sans-serif;
+    }
+    .language-name {
+      fill: #f8fafc;
+      font: 600 13px "Segoe UI", Arial, sans-serif;
+    }
+    .language-percent {
+      fill: #94a3b8;
+      font: 12px "Segoe UI", Arial, sans-serif;
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="stats-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <rect
+    x="0.5"
+    y="0.5"
+    width="494"
+    height="229"
+    rx="8"
+    fill="#070b14"
+    stroke="#1e293b"
+  />
+  <rect x="0" y="0" width="5" height="230" rx="3" fill="url(#stats-accent)" />
+  <text class="title" x="28" y="39">GitHub Activity</text>
+  <path d="M28 54 H467" stroke="#1e293b" />
+
+  
+  <g transform="translate(28 96)">
+    <text class="metric-value" x="0" y="0">26</text>
+    <text class="metric-label" x="0" y="24">Contributions · last year</text>
+  </g>
+
+  
+  <g transform="translate(265 96)">
+    <text class="metric-value" x="0" y="0">21</text>
+    <text class="metric-label" x="0" y="24">Commits · last year</text>
+  </g>
+
+  
+  <g transform="translate(28 160)">
+    <text class="metric-value" x="0" y="0">0</text>
+    <text class="metric-label" x="0" y="24">Pull requests · last year</text>
+  </g>
+
+  
+  <g transform="translate(265 160)">
+    <text class="metric-value" x="0" y="0">0</text>
+    <text class="metric-label" x="0" y="24">Stars earned</text>
+  </g>
+
+
+  <g transform="translate(28 202)">
+    <circle cx="5" cy="-4" r="4" fill="#22d3ee">
+      <animate
+        attributeName="opacity"
+        values="0.4;1;0.4"
+        dur="2s"
+        repeatCount="indefinite"
+      />
+    </circle>
+    <text class="metric-label" x="17" y="0">
+      5 public repos · 1 followers
+    </text>
+  </g>
 </svg>

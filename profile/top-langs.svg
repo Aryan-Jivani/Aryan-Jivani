@@ -4,21 +4,113 @@
   height="250"
   viewBox="0 0 495 250"
   role="img"
-  aria-labelledby="title description"
+  aria-labelledby="languages-title languages-description"
 >
-  <title id="title">Top languages loading</title>
-  <desc id="description">This placeholder will be replaced by GitHub Actions.</desc>
-  <rect x="0.5" y="0.5" width="494" height="249" rx="8" fill="#070b14" stroke="#1e293b" />
-  <text x="28" y="45" fill="#22d3ee" font-family="Segoe UI, Arial" font-size="18" font-weight="700">
-    Most Used Languages
-  </text>
-  <text x="28" y="100" fill="#94a3b8" font-family="Segoe UI, Arial" font-size="14">
-    Repository language data will be generated automatically.
-  </text>
-  <g transform="translate(28 138)">
-    <rect width="110" height="8" rx="4" fill="#8b5cf6" />
-    <rect x="118" width="92" height="8" rx="4" fill="#22d3ee" />
-    <rect x="218" width="70" height="8" rx="4" fill="#f59e0b" />
-    <rect x="296" width="48" height="8" rx="4" fill="#34d399" />
+  <title id="languages-title">Aryan-Jivani's most-used languages</title>
+  <desc id="languages-description">
+    Languages measured by code size across public, non-fork repositories.
+  </desc>
+  
+  <style>
+    .title {
+      fill: #22d3ee;
+      font: 700 18px "Segoe UI", Arial, sans-serif;
+    }
+    .metric-value {
+      fill: #f8fafc;
+      font: 700 23px "Segoe UI", Arial, sans-serif;
+    }
+    .metric-label {
+      fill: #94a3b8;
+      font: 12px "Segoe UI", Arial, sans-serif;
+    }
+    .language-name {
+      fill: #f8fafc;
+      font: 600 13px "Segoe UI", Arial, sans-serif;
+    }
+    .language-percent {
+      fill: #94a3b8;
+      font: 12px "Segoe UI", Arial, sans-serif;
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="languages-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+  <rect
+    x="0.5"
+    y="0.5"
+    width="494"
+    height="249"
+    rx="8"
+    fill="#070b14"
+    stroke="#1e293b"
+  />
+  <rect x="0" y="0" width="5" height="250" rx="3" fill="url(#languages-accent)" />
+  <text class="title" x="28" y="39">Most Used Languages</text>
+  <path d="M28 54 H467" stroke="#1e293b" />
+  
+  <g transform="translate(28 77)">
+    <circle cx="5" cy="-4" r="5" fill="#f1e05a" />
+    <text class="language-name" x="18" y="0">JavaScript</text>
+    <rect x="140" y="-11" width="280" height="8" rx="4" fill="#172033" />
+    <rect
+      x="140"
+      y="-11"
+      width="129"
+      height="8"
+      rx="4"
+      fill="#f1e05a"
+    />
+    <text class="language-percent" x="432" y="0">46%</text>
   </g>
+
+  <g transform="translate(28 104)">
+    <circle cx="5" cy="-4" r="5" fill="#c22d40" />
+    <text class="language-name" x="18" y="0">Scala</text>
+    <rect x="140" y="-11" width="280" height="8" rx="4" fill="#172033" />
+    <rect
+      x="140"
+      y="-11"
+      width="81"
+      height="8"
+      rx="4"
+      fill="#c22d40"
+    />
+    <text class="language-percent" x="432" y="0">29%</text>
+  </g>
+
+  <g transform="translate(28 131)">
+    <circle cx="5" cy="-4" r="5" fill="#663399" />
+    <text class="language-name" x="18" y="0">CSS</text>
+    <rect x="140" y="-11" width="280" height="8" rx="4" fill="#172033" />
+    <rect
+      x="140"
+      y="-11"
+      width="70"
+      height="8"
+      rx="4"
+      fill="#663399"
+    />
+    <text class="language-percent" x="432" y="0">25%</text>
+  </g>
+
+  <g transform="translate(28 158)">
+    <circle cx="5" cy="-4" r="5" fill="#e34c26" />
+    <text class="language-name" x="18" y="0">HTML</text>
+    <rect x="140" y="-11" width="280" height="8" rx="4" fill="#172033" />
+    <rect
+      x="140"
+      y="-11"
+      width="4"
+      height="8"
+      rx="4"
+      fill="#e34c26"
+    />
+    <text class="language-percent" x="432" y="0">1%</text>
+  </g>
+
 </svg>
