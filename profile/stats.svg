@@ -1,0 +1,22 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="495"
+  height="230"
+  viewBox="0 0 495 230"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">GitHub statistics loading</title>
+  <desc id="description">This placeholder will be replaced by GitHub Actions.</desc>
+  <rect x="0.5" y="0.5" width="494" height="229" rx="8" fill="#070b14" stroke="#1e293b" />
+  <text x="28" y="45" fill="#22d3ee" font-family="Segoe UI, Arial" font-size="18" font-weight="700">
+    GitHub Activity
+  </text>
+  <text x="28" y="100" fill="#94a3b8" font-family="Segoe UI, Arial" font-size="14">
+    Live statistics will appear after the first workflow run.
+  </text>
+  <rect x="28" y="135" width="300" height="8" rx="4" fill="#172033" />
+  <rect x="28" y="135" width="90" height="8" rx="4" fill="#22d3ee">
+    <animate attributeName="width" values="60;300;60" dur="2.4s" repeatCount="indefinite" />
+  </rect>
+</svg>
