@@ -55,13 +55,13 @@
 
   
   <g transform="translate(28 96)">
-    <text class="metric-value" x="0" y="0">26</text>
+    <text class="metric-value" x="0" y="0">27</text>
     <text class="metric-label" x="0" y="24">Contributions · last year</text>
   </g>
 
   
   <g transform="translate(265 96)">
-    <text class="metric-value" x="0" y="0">21</text>
+    <text class="metric-value" x="0" y="0">22</text>
     <text class="metric-label" x="0" y="24">Commits · last year</text>
   </g>
 
