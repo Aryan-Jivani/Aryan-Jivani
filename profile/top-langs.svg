@@ -90,12 +90,12 @@
     <rect
       x="140"
       y="-11"
-      width="70"
+      width="67"
       height="8"
       rx="4"
       fill="#663399"
     />
-    <text class="language-percent" x="432" y="0">25%</text>
+    <text class="language-percent" x="432" y="0">24%</text>
   </g>
 
   <g transform="translate(28 158)">
