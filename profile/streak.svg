@@ -1,0 +1,39 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="495"
+  height="230"
+  viewBox="0 0 495 230"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">Contribution streak loading</title>
+  <desc id="description">This placeholder will be replaced by GitHub Actions.</desc>
+  <rect x="0.5" y="0.5" width="494" height="229" rx="8" fill="#070b14" stroke="#1e293b" />
+  <rect x="0" y="0" width="5" height="230" rx="3" fill="#22d3ee" />
+  <text x="28" y="45" fill="#22d3ee" font-family="Segoe UI, Arial" font-size="18" font-weight="700">
+    Contribution Streak
+  </text>
+  <text x="28" y="100" fill="#94a3b8" font-family="Segoe UI, Arial" font-size="14">
+    Live streak data will appear after the next workflow run.
+  </text>
+  <circle cx="248" cy="160" r="30" fill="none" stroke="#172033" stroke-width="6" />
+  <circle
+    cx="248"
+    cy="160"
+    r="30"
+    fill="none"
+    stroke="#8b5cf6"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-dasharray="70 118"
+  >
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 248 160"
+      to="360 248 160"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+  </circle>
+</svg>

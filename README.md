@@ -71,7 +71,7 @@ scalable data pipelines, and thoughtful digital products.
   />
   <img
     width="49%"
-    src="https://streak-stats.demolab.com?user=Aryan-Jivani&amp;background=070B14&amp;border=1E293B&amp;stroke=22D3EE&amp;ring=22D3EE&amp;fire=8B5CF6&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC&amp;currStreakLabel=22D3EE&amp;sideLabels=94A3B8&amp;dates=64748B"
+    src="./profile/streak.svg"
     alt="Aryan Jivani's GitHub contribution streak"
   />
 </div>
