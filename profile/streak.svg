@@ -80,10 +80,10 @@
       stroke-width="7"
       stroke-linecap="round"
       stroke-dasharray="289"
-      stroke-dashoffset="257"
+      stroke-dashoffset="289"
       transform="rotate(-90 0 -5)"
     />
-    <text class="metric-value" x="0" y="3">1</text>
+    <text class="metric-value" x="0" y="3">0</text>
     <text class="metric-label" x="0" y="25">Current streak</text>
   </g>
 
