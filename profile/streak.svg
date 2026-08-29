@@ -56,7 +56,7 @@
 
   <g transform="translate(83 122)" text-anchor="middle">
     <text class="metric-value" x="0" y="0">
-      39
+      43
     </text>
     <text class="metric-label" x="0" y="25">Total contributions</text>
     <text class="metric-label" x="0" y="43">Last 12 months</text>
@@ -80,17 +80,17 @@
       stroke-width="7"
       stroke-linecap="round"
       stroke-dasharray="289"
-      stroke-dashoffset="289"
+      stroke-dashoffset="225"
       transform="rotate(-90 0 -5)"
     />
-    <text class="metric-value" x="0" y="3">0</text>
+    <text class="metric-value" x="0" y="3">2</text>
     <text class="metric-label" x="0" y="25">Current streak</text>
   </g>
 
   <g transform="translate(412 122)" text-anchor="middle">
     <text class="metric-value" x="0" y="0">9</text>
     <text class="metric-label" x="0" y="25">Longest streak</text>
-    <text class="metric-label" x="0" y="43">18 active days</text>
+    <text class="metric-label" x="0" y="43">20 active days</text>
   </g>
 
   <text class="metric-label" x="248" y="211" text-anchor="middle">
