@@ -60,12 +60,12 @@
     <rect
       x="140"
       y="-11"
-      width="120"
+      width="115"
       height="8"
       rx="4"
       fill="#f1e05a"
     />
-    <text class="language-percent" x="432" y="0">43%</text>
+    <text class="language-percent" x="432" y="0">41%</text>
   </g>
 
   <g transform="translate(28 104)">
@@ -75,12 +75,12 @@
     <rect
       x="140"
       y="-11"
-      width="101"
+      width="109"
       height="8"
       rx="4"
       fill="#c22d40"
     />
-    <text class="language-percent" x="432" y="0">36%</text>
+    <text class="language-percent" x="432" y="0">39%</text>
   </g>
 
   <g transform="translate(28 131)">
@@ -90,12 +90,12 @@
     <rect
       x="140"
       y="-11"
-      width="59"
+      width="56"
       height="8"
       rx="4"
       fill="#663399"
     />
-    <text class="language-percent" x="432" y="0">21%</text>
+    <text class="language-percent" x="432" y="0">20%</text>
   </g>
 
   <g transform="translate(28 158)">
