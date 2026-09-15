@@ -54,33 +54,33 @@
   <path d="M28 54 H467" stroke="#1e293b" />
   
   <g transform="translate(28 77)">
-    <circle cx="5" cy="-4" r="5" fill="#f1e05a" />
-    <text class="language-name" x="18" y="0">JavaScript</text>
-    <rect x="140" y="-11" width="280" height="8" rx="4" fill="#172033" />
-    <rect
-      x="140"
-      y="-11"
-      width="115"
-      height="8"
-      rx="4"
-      fill="#f1e05a"
-    />
-    <text class="language-percent" x="432" y="0">41%</text>
-  </g>
-
-  <g transform="translate(28 104)">
     <circle cx="5" cy="-4" r="5" fill="#c22d40" />
     <text class="language-name" x="18" y="0">Scala</text>
     <rect x="140" y="-11" width="280" height="8" rx="4" fill="#172033" />
     <rect
       x="140"
       y="-11"
-      width="109"
+      width="112"
       height="8"
       rx="4"
       fill="#c22d40"
     />
-    <text class="language-percent" x="432" y="0">39%</text>
+    <text class="language-percent" x="432" y="0">40%</text>
+  </g>
+
+  <g transform="translate(28 104)">
+    <circle cx="5" cy="-4" r="5" fill="#f1e05a" />
+    <text class="language-name" x="18" y="0">JavaScript</text>
+    <rect x="140" y="-11" width="280" height="8" rx="4" fill="#172033" />
+    <rect
+      x="140"
+      y="-11"
+      width="112"
+      height="8"
+      rx="4"
+      fill="#f1e05a"
+    />
+    <text class="language-percent" x="432" y="0">40%</text>
   </g>
 
   <g transform="translate(28 131)">
@@ -90,12 +90,12 @@
     <rect
       x="140"
       y="-11"
-      width="56"
+      width="53"
       height="8"
       rx="4"
       fill="#663399"
     />
-    <text class="language-percent" x="432" y="0">20%</text>
+    <text class="language-percent" x="432" y="0">19%</text>
   </g>
 
   <g transform="translate(28 158)">
